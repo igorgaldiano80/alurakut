@@ -24,13 +24,13 @@ export default function Home() {
   'peas', 
   'rafaballerini',
    'marcobrunodev']
-  r return (
+  return (
     <>
       <AlurakutMenu />
       <MainGrid>
         {/* <Box style="grid-area: profileArea;"> */}
         <div className="profileArea" style={{ gridArea: 'profileArea' }}>
-          <ProfileSidebar githubUser={usuarioAleatorio} />
+          <ProfileSideBar githubUser={usuarioAleatorio} />
         </div>
         <div className="welcomeArea" style={{ gridArea: 'welcomeArea' }}>
           <Box>
